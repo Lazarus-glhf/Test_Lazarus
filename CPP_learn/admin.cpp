@@ -42,9 +42,9 @@ void Admin::printAdmin()
 int main(void)
 {
     char name[20], note1[40];
-    cout << "Please input your name:" << endl;
+    cout << "Please enter your name:" << endl;
     cin >> name;
-    cout << "Please input your notes:" << endl;
+    cout << "Please enter your notes:" << endl;
     cin >> note1;
     cout << endl;
 
@@ -54,6 +54,5 @@ int main(void)
     firstAdmin.setAdmin(name);
     firstAdmin.setNotes(note1);
     firstAdmin.printAdmin();
-
-    getchar();
+    system("pause");
 }
