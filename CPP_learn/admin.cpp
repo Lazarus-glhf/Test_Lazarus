@@ -24,12 +24,12 @@ void Admin::setAdmin(char name[])
 }
 void Admin::setNotes(char note1[])
 {
-    int i=0;
+    int i;
     for (i = 0; i < 40; i++)
     {
-        cout<<note1[i];
+        //cout<<note1[i];
         if(note1[i]=='\0') break;
-        Note[i]==note1[i];
+        Note[i]=note1[i];
     }
 }
 void Admin::printAdmin()
